@@ -1,0 +1,36 @@
+main{
+    width:100%;
+    max-width:360px;
+    height:100%;
+    margin:0 auto;
+}
+
+section{
+    display:flex;
+    height:40px;
+    align-items: center;
+    gap:10px;
+}
+.user_area{
+    height:max-content;
+    flex-direction: column;
+    align-items: normal;
+    gap:10px;
+}
+
+.num_btns{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.num_btns button{
+    flex:1 1 30%;
+}
+.user_area button{
+    height:34px;
+    background:#dadce0;
+    color:#202124;
+    border-radius:4px;
+    box-sizing: border-box;
+    border:1px solid #dadce0;
+}

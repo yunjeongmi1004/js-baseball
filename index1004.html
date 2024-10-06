@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <main>
+        <section class="tester_area">
+            <span>테스터값 :</span>
+            <strong id="test_answer"></strong>
+        </section>
+        <section class="user_area">
+            <div class="num_btns">
+                <button onclick="calUserAnswer(event)">1</button>
+                <button onclick="calUserAnswer(event)">2</button>
+                <button onclick="calUserAnswer(event)">3</button>
+                <button onclick="calUserAnswer(event)">4</button>
+                <button onclick="calUserAnswer(event)">5</button>
+                <button onclick="calUserAnswer(event)">6</button>
+                <button onclick="calUserAnswer(event)">7</button>
+                <button onclick="calUserAnswer(event)">8</button>
+                <button onclick="calUserAnswer(event)">9</button>
+            </div>
+            <button onclick="calAnswerEvent()">제출</button>
+        </section>
+        <section class="result_area">
+            <span>사용자 입력값 :</span>
+            <strong id="user_answer"></strong>
+        </section>
+    </main>
+</body>
+</html>
